@@ -61,25 +61,25 @@ mise exec ruby@jruby -- glimmer 'scaffold[helloworld]'
 ### Mac
 
 ```sh
-  brew install yt-dlp
+brew install yt-dlp
 ```
 
 ### Linux
 
 ```sh
-  sudo apt install yt-dlp
+sudo apt install yt-dlp
 ```
 
 ## Install FFMPEG for audio & video encoding
 
 ```sh
-  brew install ffmpeg
+brew install ffmpeg
 ```
 
 ### Linux
 
 ```sh
-  sudo apt install ffmpeg
+sudo apt install ffmpeg
 ```
 
 
@@ -90,17 +90,17 @@ Now that you have Glimmer & Jruby installed you can follow these instructions fo
 download the source code
 
 ```sh
-  git clone https://github.com/indigotechtutorials/producer-pal
+git clone https://github.com/indigotechtutorials/producer-pal
 ```
 
 cd into app folder
 
 ```sh
-  cd producer-pal
+cd producer-pal
 ```
 
 run the app
 
 ```sh
-  mise exec ruby@jruby -- glimmer app.rb
+mise exec ruby@jruby -- glimmer app.rb
 ```
