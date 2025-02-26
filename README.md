@@ -13,6 +13,7 @@ the tools needed to run this project
 - Java 21
 - Jruby
 - Glimmer gem for Jruby
+- yt-dlp
 
 ## Install Glimmer with Jruby & Mise
 
@@ -54,6 +55,33 @@ Try to scaffold your first app
 ```sh
 mise exec ruby@jruby -- glimmer 'scaffold[helloworld]'
 ```
+
+## Install YT-DLP for downloading youtube videos
+
+### Mac
+
+```sh
+  brew install yt-dlp
+```
+
+### Linux
+
+```sh
+  sudo apt install yt-dlp
+```
+
+## Install FFMPEG for audio & video encoding
+
+```sh
+  brew install ffmpeg
+```
+
+### Linux
+
+```sh
+  sudo apt install ffmpeg
+```
+
 
 ## Installing Producer PAL App
 Now that you have Glimmer & Jruby installed you can follow these instructions for running this producer pal app
