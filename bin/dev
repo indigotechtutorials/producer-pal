@@ -1,0 +1,1 @@
+mise exec ruby@jruby -- glimmer app.rb
