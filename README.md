@@ -99,8 +99,16 @@ cd into app folder
 cd producer-pal
 ```
 
-run the app
+### Run the app
+
+You can either start it manually with this mise code
 
 ```sh
 mise exec ruby@jruby -- glimmer app.rb
+```
+
+or for simplicity I created a script to run this same code all you have to do is run
+
+```sh
+bin/dev
 ```
